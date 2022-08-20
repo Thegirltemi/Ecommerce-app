@@ -4,7 +4,10 @@ import { useState } from "react";
 import {useDispatch} from 'react-redux'
 import {useNavigate} from 'react-router';
 import { addToCart } from "./features/cartSlice";
-const Men = () => {
+
+
+
+const Furniture = () => {
   const [state, setState] = useState(homeData);
   const dispatch = useDispatch()
   const navigate = useNavigate()
@@ -18,10 +21,10 @@ const Men = () => {
   return (
     <>
       {
-        < div className="men">
+        < div className="furniture">
           {state.map((item, key) => {
             return (
-              <div className="men-section">
+              <div className="furniture-section">
                 <img src={item.imageSrc} alt='product' className="product"/>
                 <p>{item.description}</p>
                 <h3>${item.price}</h3>
@@ -35,4 +38,4 @@ const Men = () => {
   );
 };
 
-export default Men;
+export default Furniture;

@@ -46,45 +46,42 @@
 
 /* Home */
 .home{
-  background-image: url(https://source.unsplash.com/_3Q3tsJ01nc);
+  background-image: url(https://source.unsplash.com/2EUdAWQ3Uko);
   height: calc(100vh - 80px);
-  width: 100%;
+  width: 100vw;
 }
-
-.home-cat p{
-  position: absolute;
-  top: 15%;
-  font-size: 20px;
-  color: grey;
-  border: 2px solid yellow;
-  font-weight: 800;
-  padding: 2px;
-  cursor: pointer;
-  background-color: black;
+.home p{
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30%;
+ /*  position: absolute; 
+  top: 40%;
+  right: 38%; */
 }
 .home-cat h2{
-  position: absolute;
-  top: 15%;
-  right: 0%;
-  font-size: 20px;
-  color: grey;
-  border: 2px solid yellow;
+  /* position: absolute;
+  top: 55%;
+  right: 45%; */
+  text-align: center;
+  font-size: 30px;
+  color: white;
   font-weight: 800;
   padding: 2px;
   cursor: pointer;
-  background-color: black;
   letter-spacing: 1px;
 }
-/* WOMEN */
-.men{
+
+/* FURNITURE */
+.furniture{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
+  grid-template-columns: repeat(1, minmax(0,1fr));
   text-align: center;
   gap: 50px;
-
-
 }
-.men-section{
+
+.furniture-section{
   width: 330px;
   box-shadow: 0 1px 3px 0 rgb(0 0 0/0.5);
   margin-top: 30px;
@@ -92,10 +89,10 @@
 }
 .product{
   margin-top: 30px;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
 }
-.men-section button{
+.furniture-section button{
   width: 80%;
   height: 48px;
   border-radius: 5px;
@@ -260,6 +257,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 
 
 
