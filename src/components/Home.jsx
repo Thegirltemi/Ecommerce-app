@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
      <div className='home'>
-      <p><i>lotrem interiors</i></p>
+      <p><i>Welcome</i></p>
       <div className='home-cat'>
        <Link to='/store'>
        <h2>Shop Now</h2>
